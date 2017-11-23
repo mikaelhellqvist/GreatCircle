@@ -12,7 +12,9 @@
 		521ADFEE1FC725890037F63C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 521ADFEC1FC725890037F63C /* Main.storyboard */; };
 		521ADFF01FC725890037F63C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 521ADFEF1FC725890037F63C /* Assets.xcassets */; };
 		521ADFF31FC725890037F63C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 521ADFF11FC725890037F63C /* LaunchScreen.storyboard */; };
-		521ADFFE1FC725890037F63C /* GreatCircleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521ADFFD1FC725890037F63C /* GreatCircleTests.swift */; };
+		521AE0091FC725DB0037F63C /* GreatCircleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521AE0081FC725DB0037F63C /* GreatCircleTests.swift */; };
+		521AE00B1FC725EC0037F63C /* GreatCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521AE00A1FC725EC0037F63C /* GreatCircle.swift */; };
+		521AE00D1FC726300037F63C /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521AE00C1FC726300037F63C /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,8 +36,10 @@
 		521ADFF21FC725890037F63C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		521ADFF41FC725890037F63C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		521ADFF91FC725890037F63C /* GreatCircleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GreatCircleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		521ADFFD1FC725890037F63C /* GreatCircleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreatCircleTests.swift; sourceTree = "<group>"; };
 		521ADFFF1FC725890037F63C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		521AE0081FC725DB0037F63C /* GreatCircleTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GreatCircleTests.swift; path = ../../../../../Desktop/GreatCircleTests.swift; sourceTree = "<group>"; };
+		521AE00A1FC725EC0037F63C /* GreatCircle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GreatCircle.swift; sourceTree = "<group>"; };
+		521AE00C1FC726300037F63C /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,8 +81,10 @@
 		521ADFE71FC725890037F63C /* GreatCircle */ = {
 			isa = PBXGroup;
 			children = (
+				521AE00A1FC725EC0037F63C /* GreatCircle.swift */,
 				521ADFE81FC725890037F63C /* AppDelegate.swift */,
 				521ADFEA1FC725890037F63C /* ViewController.swift */,
+				521AE00C1FC726300037F63C /* Extensions.swift */,
 				521ADFEC1FC725890037F63C /* Main.storyboard */,
 				521ADFEF1FC725890037F63C /* Assets.xcassets */,
 				521ADFF11FC725890037F63C /* LaunchScreen.storyboard */,
@@ -90,7 +96,7 @@
 		521ADFFC1FC725890037F63C /* GreatCircleTests */ = {
 			isa = PBXGroup;
 			children = (
-				521ADFFD1FC725890037F63C /* GreatCircleTests.swift */,
+				521AE0081FC725DB0037F63C /* GreatCircleTests.swift */,
 				521ADFFF1FC725890037F63C /* Info.plist */,
 			);
 			path = GreatCircleTests;
@@ -200,7 +206,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				521ADFEB1FC725890037F63C /* ViewController.swift in Sources */,
+				521AE00B1FC725EC0037F63C /* GreatCircle.swift in Sources */,
 				521ADFE91FC725890037F63C /* AppDelegate.swift in Sources */,
+				521AE00D1FC726300037F63C /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,7 +216,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				521ADFFE1FC725890037F63C /* GreatCircleTests.swift in Sources */,
+				521AE0091FC725DB0037F63C /* GreatCircleTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
